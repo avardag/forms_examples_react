@@ -1,10 +1,11 @@
 import React from "react";
-import { FormUseStates } from "./components/form";
+import { FormUseStates, FormUseReducer } from "./components/form";
 
 export default function App() {
   return (
     <div>
       <div>
+        <FormUseReducer />
         <FormUseStates />
       </div>
     </div>

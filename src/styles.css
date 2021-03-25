@@ -38,3 +38,9 @@ button {
 button:disabled {
   color: grey;
 }
+.description {
+  font-size: 10px;
+  color: gray;
+  margin: 0;
+  padding: 0;
+}
